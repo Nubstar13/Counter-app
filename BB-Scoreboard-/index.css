@@ -1,0 +1,88 @@
+body {
+    margin: 100px auto ;
+    text-align: center;
+    background-color: gray;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1B244A;
+    width: 575px;
+    height: auto;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    border-radius: 5px;
+    border: 3px solid white;
+    }
+    
+    .quarterClock {
+        border: 1px solid red;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        background-color: white;
+        color: #f94f6d;
+        font-family: "Orbitron", serif;
+        margin: 5px 2px 0px 0px;
+        
+    }
+    
+    .quarterClock p {
+        
+        border: 1px solid red;
+        background-color: black;
+        padding: 5px 5px;
+        width: 25px;
+    }
+    
+
+#homeScr, #awayScr {
+    background-color: black;
+    color: #f94f6d;
+    font-size: 90px;
+    padding: 0px 2px;
+    margin:0;
+    font-family: "Orbitron", serif;
+    border-radius: 5px;
+    
+
+    
+}
+
+    h3 {
+        font-family: "Rozha One", serif;
+         font-weight: 400;
+        margin-bottom:0;
+        font-size:46px ;
+        color: aliceblue;
+        
+    }
+.score-board {
+    width: 155px;
+    
+    
+    
+}
+
+button {
+    margin: 26px 3px 0px 0px;
+    border-radius: 5px;
+    color: #9AABD8;
+    border: 2px solid #9AABD8;
+    height: 45px;
+    width: 45px;
+    background-color: #1B244A;
+    font-family: "Orbitron", serif;
+    
+}
+
+#resetButtonhome , #resetButtonguest {
+    
+    width: 95px;
+}
+
+button:hover {
+    
+    background-color: #ffffff;
+}

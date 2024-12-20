@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="score-board">
+                <h3 >HOME</h3>
+                     <p id="homeScr">0</p>
+                   
+                    <button onclick="add1home()">+1</button>
+                    <button onclick="add2home()">+2</button>
+                    <button onclick="add3home()">+3</button>
+                       <! -- to start the comment and -->
+                        <div>
+                        <button onclick="sub1home()">-1</button>
+                        <button id="resetButtonhome" onclick="resetButtonhome()">Reset</button>
+                        
+                        <! -- to start the comment and -->
+                      </div>
+                </div>
+                    
+           
+            <div class="score-board">
+                <h3  >AWAY</h3>
+               <p id="awayScr">0</p>
+                <button onclick="add1guest()">+1</button>
+                <button onclick="add2guest()">+2</button>
+                <button onclick="add3guest()">+3</button>
+                 <! -- to start the comment and -->
+                        <div>
+                        <button onclick="sub1guest()">-1</button>
+                        <button id="resetButtonguest" onclick="resetButtonguest()">Reset</button>
+                        
+                        <! -- to start the comment and -->
+                      </div>
+            </div>
+            
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
